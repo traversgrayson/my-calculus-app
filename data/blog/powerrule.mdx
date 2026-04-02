@@ -1,0 +1,37 @@
+---
+title: Power Rule Proof
+date: '2026-03-29'
+tags: ['calculus', 'proofs']
+draft: true
+summary: 'Proof of the derivative of Powers'
+---
+The goal of this proof is to show that $\frac{d}{dx}x^n = nx^{n-1}$ for any real number $n>0$. 
+We will make use of the binomial theorem, which is defined as follows:
+
+$$
+\begin{aligned}
+
+(x+y)^n &=  \sum_{k = 0}^{n} \binom{n}{k}x^{n-k}y^k \\
+&= x^n + nx^{n-1}y + ... + nxy^{n-1} + y^n
+
+\end{aligned}
+$$
+
+Define $f(x) = x^n$ where $n$ is a real number. Then by the limit definition of a derivative, 
+
+
+$$ 
+\begin{aligned}
+
+f'(x) &= \lim_{h \to 0} \frac{(x+h)^n - x^n}{h} \\
+&= \lim_{h \to 0} \frac{\overbrace{x^n + nx^{n-1}h + ... + nxh^{n-1} + h^n}^{(x+h)^n } - x^n}{h}. &\text{From the Binomial Theorem above} \\
+&= \lim_{h \to 0} \frac{nx^{n-1}h + ... + nxh^{n-1} + h^n}{h} &\text{Cancel the $x^n$ terms} \\
+&= \lim_{h \to 0} nx^{n-1} + ... + nxh^{n-2} + h^{n-1}
+\end{aligned}
+$$
+
+Notice that every term has a factor of $h$ except $nx^{n-1}$. Each term with a $h$ will approach 0 as $h$ approaches 0. Thus,
+
+$$
+\lim_{h \to 0} nx^{n-1} + ... + nxh^{n-2} + h^{n-1} = nx^{n-1}
+$$

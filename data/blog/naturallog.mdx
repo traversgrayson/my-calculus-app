@@ -1,0 +1,98 @@
+---
+title: Derivatives of Natural Log
+date: '2026-03-28'
+tags: ['calculus', 'proofs']
+draft: true
+summary: 'Proofs of the Derivative of the Natural Log'
+---
+
+
+
+## Limit Definition of Derivative
+
+We will use two well-known formulas for this proof. First, the limit definition of a derivative:
+
+$$
+f'(x) = \lim_{h \to 0} \frac{f(x+h) -f(x)}{h}
+$$
+
+We will also use the limit definition of $e$. 
+
+$$
+e = \lim_{n \to \infty} ( 1 + \frac{1}{n})^{n}
+$$
+
+So, let $f(x) = \ln(x)$ and apply the limit definition of a derivative. 
+
+$$
+\boxed{
+\begin{aligned}
+f'(x) &= \lim_{h \to 0} \frac{\ln(x+h) -\ln(x)}{h} \\
+&= \lim_{h \to 0} \frac{\ln(\frac{x+h}{x})}{h}       &\text{From  }\ln(a) - \ln(b) = \ln(\frac{a}{b}) \\
+&= \lim_{h \to 0} \frac{\ln(1 + \frac{h}{x})}{h} \\
+&= \lim_{h \to 0} \frac{1}{h}\ln(1 + \frac{h}{x}) \\
+&= \lim_{h \to 0} \ln(1 + \frac{h}{x})^{\frac{1}{h}} &a\ln(x) = \ln(x^a)
+\end{aligned}
+
+}
+$$
+
+ Let $n = \frac{h}{x}$. Now we have something that looks much more like $e^x$. Notice, that as $\frac{h}{x}$ approaches 0, $n$ approaches $0$ as well. Thus: 
+
+
+$$
+\lim_{h \to 0} \ln(1 + \frac{h}{x})^{\frac{1}{h}} 
+= \lim_{n \to 0} \ln(1 + n)^{\frac{1}{nx}} 
+$$
+
+Notice that $x$ is constant with respect to the derivative, so 
+
+$$
+\ln(1 + n)^{\frac{1}{nx}} = \frac{1}{x}\ln(1 + n)^{\frac{1}{n}}
+$$ 
+
+Now we will perform
+one more substitution. Let  $m = \frac{1}{n}$, then as $n$ approaches $0$, $m$ approaches $\infty$. So, 
+$$
+\begin{aligned}
+\frac{1}{x} \lim_{n \to 0} \ln(1 + n)^{\frac{1}{n}}
+
+&= \frac{1}{x} \lim_{m \to \infty} \ln(1 + \frac{1}{m})^{m}
+\end{aligned}
+$$
+
+$\ln(x)$ is continuous for $x>0$, so we will now use the fact the limit of a continuous function is the function of a limit, i.e. $\lim_{x \to a} f(x) = f(\lim_{x \to a} x)$
+$$
+\begin{aligned}
+\frac{1}{x} \lim_{m \to \infty} \ln(1 + \frac{1}{m})^{m} &= \frac{1}{x} \ln(\lim_{m \to \infty} (1 + \frac{1}{m})^{m})
+
+&= \frac{1}{x} \ln(e)\\
+&= \frac{1}{x} (1)\\
+&= \frac{1}{x}  \\
+&\text{QED}
+
+\end{aligned}
+$$
+
+## Implicit Differentiation
+
+Let $y = \ln(x)$. Thus, 
+
+$$
+\begin{aligned}
+y &= \ln(x) \\
+e^y &= e^{ln(x)} &\text{Exponentiate both sides} \\
+ &= x 
+ \end{aligned}
+ $$
+Now  Differentiate Implicitly:
+$$
+\begin{aligned}
+\frac{d}{dx}e^y &= \frac{d}{dx} x  &\text{Differentiate w/respect to x} \\
+y^{'} e^y &= 1   \\
+y^{'} &= \frac{1}{e^y} \\
+&= \frac{1}{x} &\text{Substitute $x$ back in for $e^y$} \\
+&\text{QED}
+\end{aligned}
+$$
+

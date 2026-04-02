@@ -1,0 +1,44 @@
+---
+title: Trigonometric Functions Proofs
+date: '2026-03-29'
+tags: ['calculus', 'proofs']
+draft: true
+summary: 'Proofs for the Derivatives of Trigonometric Functions'
+---
+
+## $\sin(x)$
+
+# Integration of the Taylor Series
+
+The Taylor Series for $\sin(x)$ is defined as:
+$$
+
+\sum_{i=0}^{\infty} \frac{(-1)^nx^{2n+1}}{(2n+1)!} = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \frac{x^7}{7!} ...  
+$$
+
+Similarly the Taylor Series for $\cos(x)$ is defined as:
+$$
+\sum_{i=0}^{\infty} \frac{(-1)^nx^{2n}}{(2n)!} = 1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \frac{x^6}{6!} ...  
+$$
+
+We will show that the derivastive of $\sin(x)$ is $\cos(x)$ using 
+the alternative limit definition of a derivative and their Taylor Series. 
+
+Let $f(x) = \sin(x)$. 
+
+$$
+\begin{aligned}
+f'(x) &= \lim_{a \to x} \frac{\sin(a) - \sin(x)}{a-x}
+\end{aligned}
+$$
+
+Let's use the Taylor Series expansion of $\sin$ to rewrite the top of the limit. 
+
+$$
+\begin{aligned}
+
+\sin(a) - \sin(x) &= (a - \frac{a^3}{3!} + \frac{a^5}{5!} - \frac{a^7}{7!} + ...) - (x - \frac{x^3}{3!} + \frac{x^5}{5!} - \frac{x^7}{7!} + ...)\\
+&= (a - x) - \frac{a^3 - x^3}{3!} + \frac{a^5 - x^5}{5!} - \frac{a^7 - x^7}{7!} ... \\
+&= (a-x)[1 - \frac{a^2 + ax + x^2}{3!} + ... + (-1)^n \frac{a^{2n} + a^{2n+1}x + ... + ax^{2n-1} + x^{2n} }{(2n+1)!}]
+\end{aligned}
+$$
