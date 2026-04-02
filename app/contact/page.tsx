@@ -10,7 +10,7 @@ export default function ContactPage() {
           Contact
         </h1>
       </div>
-      <div className="prose max-w-none pt-8 pb-8 dark:prose-invert">
+      <div className="prose dark:prose-invert max-w-none pt-8 pb-8">
         <p>Feel free to reach out through any of the channels below.</p>
         <ul>
           <li>

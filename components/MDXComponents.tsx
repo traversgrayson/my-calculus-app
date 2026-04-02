@@ -6,14 +6,13 @@ import Image from './Image'
 import CustomLink from './Link'
 import TableWrapper from './TableWrapper'
 
-  const components: MDXComponents = {
+const components: MDXComponents = {
   Image,
   TOCInline,
   a: CustomLink,
   pre: Pre,
   table: TableWrapper,
   BlogNewsletterForm,
-};
+}
 
-export { components };
-
+export { components }

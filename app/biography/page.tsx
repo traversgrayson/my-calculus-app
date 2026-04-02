@@ -10,18 +10,12 @@ export default function BiographyPage() {
           Biography
         </h1>
       </div>
-      <div className="prose max-w-none pt-8 pb-8 dark:prose-invert">
-        <p>
-          Write a short introduction about yourself here. Who are you? What do you do?
-        </p>
+      <div className="prose dark:prose-invert max-w-none pt-8 pb-8">
+        <p>Write a short introduction about yourself here. Who are you? What do you do?</p>
         <h2>Background</h2>
-        <p>
-          Share your educational or professional background here.
-        </p>
+        <p>Share your educational or professional background here.</p>
         <h2>Interests</h2>
-        <p>
-          Describe your interests and what drives you — mathematics, research, teaching, etc.
-        </p>
+        <p>Describe your interests and what drives you — mathematics, research, teaching, etc.</p>
       </div>
     </div>
   )
