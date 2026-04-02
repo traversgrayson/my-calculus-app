@@ -2,7 +2,7 @@
   "name": "tailwind-nextjs-starter-blog",
   "version": "2.4.0",
   "private": true,
- "homepage": "http://traversgrayson.github.io/travers-tutor-blog",
+ "homepage": "https://traversgrayson.github.io/my-calculus-app",
 
   "scripts": {
     "start": "next dev",
@@ -12,7 +12,7 @@
     "analyze": "cross-env ANALYZE=true next build",
     "lint": "next lint --fix --dir pages --dir app --dir components --dir lib --dir layouts --dir scripts",
     "prepare": "husky",
-    "predeploy": "cross-env EXPORT=1 npm run build",
+    "predeploy": "cross-env EXPORT=1 BASE_PATH=/my-calculus-app npm run build",
     "deploy": "gh-pages -d out"
   },
   "dependencies": {
