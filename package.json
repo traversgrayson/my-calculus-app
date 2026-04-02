@@ -12,8 +12,8 @@
     "analyze": "cross-env ANALYZE=true next build",
     "lint": "next lint --fix --dir pages --dir app --dir components --dir lib --dir layouts --dir scripts",
     "prepare": "husky",
-    "predeploy": "cross-env EXPORT=1 BASE_PATH=/my-calculus-app npm run build",
-    "deploy": "gh-pages -d out"
+    "predeploy": "cross-env EXPORT=1 BASE_PATH=/my-calculus-app npm run build && touch out/.nojekyll",
+    "deploy": "gh-pages -d out --dotfiles"
   },
   "dependencies": {
     "@contentlayer2/client": "^0.5.8",
