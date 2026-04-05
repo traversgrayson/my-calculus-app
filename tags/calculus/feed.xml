@@ -1,0 +1,54 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>My Site</title>
+      <link>https://tailwind-nextjs-starter-blog.vercel.app/blog</link>
+      <description>Personal website</description>
+      <language>en-us</language>
+      <managingEditor> (Travers Parsons-Grayson)</managingEditor>
+      <webMaster> (Travers Parsons-Grayson)</webMaster>
+      <lastBuildDate>Sat, 28 Mar 2026 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://tailwind-nextjs-starter-blog.vercel.app/tags/calculus/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/limits</guid>
+    <title>Derivatives of Natural Log</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/limits</link>
+    <description>Derivation of the Derivative of the Natural Log</description>
+    <pubDate>Sat, 28 Mar 2026 00:00:00 GMT</pubDate>
+    <author> (Travers Parsons-Grayson)</author>
+    <category>calculus</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/naturallog</guid>
+    <title>Derivatives of Natural Log</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/naturallog</link>
+    <description>Proofs of the Derivative of the Natural Log</description>
+    <pubDate>Sat, 28 Mar 2026 00:00:00 GMT</pubDate>
+    <author> (Travers Parsons-Grayson)</author>
+    <category>calculus</category><category>proofs</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/powerrule</guid>
+    <title>Power Rule Proof</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/powerrule</link>
+    <description>Proof of the derivative of Powers</description>
+    <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
+    <author> (Travers Parsons-Grayson)</author>
+    <category>calculus</category><category>proofs</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/trig</guid>
+    <title>Trigonometric Functions Proofs</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/trig</link>
+    <description>Proofs for the Derivatives of Trigonometric Functions</description>
+    <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
+    <author> (Travers Parsons-Grayson)</author>
+    <category>calculus</category><category>proofs</category>
+  </item>
+
+    </channel>
+  </rss>

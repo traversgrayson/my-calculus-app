@@ -1,0 +1,104 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>My Site</title>
+      <link>https://tailwind-nextjs-starter-blog.vercel.app/blog</link>
+      <description>Personal website</description>
+      <language>en-us</language>
+      <managingEditor> (Travers Parsons-Grayson)</managingEditor>
+      <webMaster> (Travers Parsons-Grayson)</webMaster>
+      <lastBuildDate>Sun, 29 Mar 2026 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://tailwind-nextjs-starter-blog.vercel.app/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/powerrule</guid>
+    <title>Power Rule Proof</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/powerrule</link>
+    <description>Proof of the derivative of Powers</description>
+    <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
+    <author> (Travers Parsons-Grayson)</author>
+    <category>calculus</category><category>proofs</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/trig</guid>
+    <title>Trigonometric Functions Proofs</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/trig</link>
+    <description>Proofs for the Derivatives of Trigonometric Functions</description>
+    <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
+    <author> (Travers Parsons-Grayson)</author>
+    <category>calculus</category><category>proofs</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/limits</guid>
+    <title>Derivatives of Natural Log</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/limits</link>
+    <description>Derivation of the Derivative of the Natural Log</description>
+    <pubDate>Sat, 28 Mar 2026 00:00:00 GMT</pubDate>
+    <author> (Travers Parsons-Grayson)</author>
+    <category>calculus</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/naturallog</guid>
+    <title>Derivatives of Natural Log</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/naturallog</link>
+    <description>Proofs of the Derivative of the Natural Log</description>
+    <pubDate>Sat, 28 Mar 2026 00:00:00 GMT</pubDate>
+    <author> (Travers Parsons-Grayson)</author>
+    <category>calculus</category><category>proofs</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/nested-route/introducing-multi-part-posts-with-nested-routing</guid>
+    <title>Introducing Multi-part Posts with Nested Routing</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/nested-route/introducing-multi-part-posts-with-nested-routing</link>
+    <description>The blog template supports posts in nested sub-folders. This can be used to group posts of similar content e.g. a multi-part course. This post is itself an example of a nested route!</description>
+    <pubDate>Sun, 02 May 2021 00:00:00 GMT</pubDate>
+    <author> (Travers Parsons-Grayson)</author>
+    <category>multi-author</category><category>next-js</category><category>feature</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/deriving-ols-estimator</guid>
+    <title>Deriving the OLS Estimator</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/deriving-ols-estimator</link>
+    <description>How to derive the OLS Estimator with matrix notation and a tour of math typesetting using markdown with the help of KaTeX.</description>
+    <pubDate>Mon, 21 Dec 2020 00:00:00 GMT</pubDate>
+    <author> (Travers Parsons-Grayson)</author>
+    <category>next js</category><category>math</category><category>ols</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/guide-to-using-images-in-nextjs</guid>
+    <title>Images in Next.js</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/guide-to-using-images-in-nextjs</link>
+    <description>In this article we introduce adding images in the tailwind starter blog and the benefits and limitations of the next/image component.</description>
+    <pubDate>Wed, 11 Nov 2020 00:00:00 GMT</pubDate>
+    <author> (Travers Parsons-Grayson)</author>
+    <category>next js</category><category>guide</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/github-markdown-guide</guid>
+    <title>Markdown Guide</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/github-markdown-guide</link>
+    <description>Markdown cheatsheet for all your blogging needs - headers, lists, images, tables and more! An illustrated guide based on GitHub Flavored Markdown.</description>
+    <pubDate>Fri, 11 Oct 2019 00:00:00 GMT</pubDate>
+    <author> (Travers Parsons-Grayson)</author>
+    <category>github</category><category>guide</category>
+  </item>
+
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/code-sample</guid>
+    <title>Sample .md file</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/code-sample</link>
+    <description>Example of a markdown file with code blocks and syntax highlighting</description>
+    <pubDate>Tue, 08 Mar 2016 00:00:00 GMT</pubDate>
+    <author> (Travers Parsons-Grayson)</author>
+    <category>markdown</category><category>code</category><category>features</category>
+  </item>
+
+    </channel>
+  </rss>
