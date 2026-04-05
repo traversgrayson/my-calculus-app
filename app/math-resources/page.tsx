@@ -24,6 +24,11 @@ const resources = [
     href: '/blog/trig',
     description: 'Derivatives of trigonometric functions.',
   },
+  {
+    title: "Newton's Method Calculator",
+    href: '/newtons-method',
+    description: "Interactive calculator for finding roots using Newton's Method.",
+  },
 ]
 
 export default function MathResourcesPage() {
